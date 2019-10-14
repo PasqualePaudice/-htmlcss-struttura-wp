@@ -68,6 +68,13 @@ main:after{
 .right{
     float: right;
     height:400px;
+    padding:1%;
+}
+
+.widget{
+    border: 1px solid black;
+    height: 33.3%;
+    margin-top: 1%;
 }
 
 .Central{
@@ -77,5 +84,4 @@ main:after{
         float: left;
         margin-left: 0.5%;
         margin-right: 0.5%;
-
 }
