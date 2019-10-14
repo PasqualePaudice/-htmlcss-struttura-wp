@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("https://avante.biz/wp-content/uploads/Wood-Wallpapers-For-IPhone/Wood-Wallpapers-For-IPhone-001.jpg");
+    object-fit: contain;
+}
+
 header{
-    width: 98%;
+    width: 50%;
     background-color: black;
     margin:auto;
     height: 200px;
@@ -42,10 +47,8 @@ header{
 }
 
 main{
-    background-color: white;
     margin: auto;
-    height: 200px;
-    width: 98%;
+    width: 50%;
     padding: 1px;
 }
 
@@ -56,32 +59,67 @@ main:after{
 }
 .sidebar{
     width: 20%;
-    border: 1px solid black;
     height: 100px;
+    margin-top: 5px;
 }
 
 .left{
+    background-color: white;
     float: left;
-    height:150px;
+    border-radius: 5%;
+    border: 0.5px solid black;
+    text-align: center;
+    font-size: 10px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.left p{
+    color: green;
 }
 
 .right{
     float: right;
     height:400px;
     padding:1%;
+
 }
 
 .widget{
-    border: 1px solid black;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5%;
     height: 33.3%;
-    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 8px;
+    padding:2px;
+    padding-top: 0;
+    text-align: center;
 }
 
 .Central{
+        background-color: white;
+        border-radius: 5%;
         width: 59%;
         border: 1px solid black;
-        height: 200px;
+        height: auto;
         float: left;
         margin-left: 0.5%;
         margin-right: 0.5%;
+        margin-top: 5px;
+        padding: 5px;
+}
+
+.Central h1{
+    text-align: center
+}
+
+footer{
+    background-color: white;
+    margin: auto;
+    width:50%;
+    height: auto;
+    font-style: italic;
+    font-size: 10px;
+    text-align:center;
 }
