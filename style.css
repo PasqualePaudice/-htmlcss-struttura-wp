@@ -1,5 +1,27 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+    left: 0;
+    right:0;
+
+}
+
+.header_top {
+    background-color: red;
+    /*left: 0;
+    right:0;*/
+    height: 80%;
+}
+
+.header_bottom {
+    background-color: blue;
+    /*left: 0;
+    right:0;*/
+    height: 20%;
 }
